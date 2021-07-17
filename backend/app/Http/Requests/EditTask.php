@@ -40,7 +40,7 @@ class EditTask extends CreateTask
         $status_labels = implode('、', $status_labels);
 
         return $messages + [
-            'status.in' => ':attributes には' . $status_labels . 'のいずれかを指定してください。'
+            'status.in' => ':attribute には' . $status_labels . 'のいずれかを指定してください。'
         ];
     }
 }
